@@ -7,7 +7,7 @@ class Genres(models.Model):
     name = models.CharField(max_length=255)
 
 
-class Movie(models.Models):
+class Movie(models.Model):
     title: models.CharField(max_length=255)
     release_year: models.DateField()
     number_in_stock = models.IntegerField()
